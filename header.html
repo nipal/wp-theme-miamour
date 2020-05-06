@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ma page test</title>
+    <link href="main.css" rel="stylesheet">
+    <script src="script/slider.js"></script>
+  </head>
+    
+  <body>
+      <div id="main-container">
+        <header>
+            <div id="title-container">
+                <img id="logo-header" src="images/logo-miamour-blanc.svg" alt="logo miamour">
+                <h1>Maison Internationale d'Art</h1>
+            </div>
+        </header>
+        
+        
+        <div id="main-container">
+            <!-- petit header -->
+            <div id="small-header">
+                <h1 id="titre-small" class="header-element">Miamour - Maison Internationale d'Art</h1>
+                
+                <img id="embleme" class="header-element" src="images/embleme_miamour_blanc.svg">
+                
+                <ul id="small-header-list" class="header-element">
+                    <li><h1><a href="#about-container">About</a></h1></li>
+                    <li><h1><a href="#slider">Gallery</a></h1></li>
+                    <li><h1><a href="#project-list-container">Projects</a></h1></li> 
+                    <li><h1><a href="#contact-container">Contact</a></h1></li> 
+                    
+                </ul>
+            </div>
+            
+            <!-- grosse image intro -->  
+            
+            <img id="intro-image" src="images/Image_intro.png" alt="logo miamour">
+            
+            <div id="about-container">
+                <!-- Partie 1 -->  
+                <div class="part-container">
+                    <h1>À propos 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+  
+                <div class="part-container">
+                        <img class="about-images" src="images/cour.png">
+                </div>
+                
+                <!-- Partie 2 -->  
+                <div class="part-container">
+                        <img class="about-images" src="images/bibliotheque.png">
+                </div>
+                <div class="part-container">
+                    <h1>À propos 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                
+                <!-- Partie 3 -->  
+                <div class="part-container">
+                    <h1>À propos 1</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+
+                <div class="part-container">
+                        <img class="about-images" src="images/cour.png">
+                </div>
+            </div>
+            
+            <!-- Slider -->  
+            <div id="slider">
+                <img src="images/gallery_01.png" alt="La forêt de peupliers" id="slide">
+                <div id="precedent" onclick="ChangeSlide(-1)"><img class="fleches" src="images/left.png"></div>
+                <div id="suivant" onclick="ChangeSlide(1)">
+                <img class="fleches" src="images/right.png"></div>
+            </div>
+            
+            <!-- Project list -->  
+            <div id="project-list-container">
+                <ul>
+                    <li class="project left">
+                        <img class="project-image" src="images/gallery_01.png" alt="La forêt de peupliers" id="slide">
+                        <a><h1 class="project-title"> DJ set pour Atom Festival × Social Proximity Experiment, Le Frit</h1>
+                        <p class="project-legend">Céramique, avril 2020</p></a>
+                    </li>
+                    
+                    <li class="project center">
+                        <img class="project-image" src="images/gallery_01.png" alt="La forêt de peupliers" id="slide">
+                        <a><h1 class="project-title">Titre 1, Pauline</h1>
+                        <p class="project-legend">Céramique, avril 2020</p></a>
+                    </li>
+                    
+                    <li class="project right">
+                        <img class="project-image" src="images/bibliotheque.png" alt="La forêt de peupliers" id="slide">
+                        <a><h1 class="project-title">Titre 1, Pauline</h1>
+                        <p class="project-legend">Céramique, avril 2020</p></a>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+            <!-- Contact -->  
+            <div id="contact-container">
+                <div class="contact-adresse">
+                    <h1>Contact</h1>
+                    <h1><a href="mailto:collectif.miamour@gmail.com">email: collectif.miamour@gmail.com</a></h1>
+                    
+                </div>
+                <div class="contact-adresse">
+                    <h1>Adresse</h1>
+                    <h1>29-31 quai Voltaire</h1>
+                    <h1>75007 PARIS</h1>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+  </body>
+</html>
